@@ -1,0 +1,97 @@
+{
+   "style" : "default",
+   "config" : "Miao_test.dat",
+   "width" : 1540,
+   "height" : 960,
+   "cancelscroll" : true,
+   "countdown" : 10,
+   "cancelname" : "取消",
+   "okname" : "确定",
+   "views" : [
+		{
+         "text" : "领地港口",
+         "type" : "Page",
+         "views" : [
+           {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "100",
+               "text" : "出发地",
+               "bg" : "255,255,255",
+               "type" : "Label"
+            },
+			{
+               "id" : "city_from",
+               "list" : "阿姆斯特丹,格罗宁根,塞维利亚,里斯本",
+               "select" : "1",
+               "size" : "200",
+               "type" : "RadioGroup",
+               "orientation" : "horizontal",
+               "color" : "0,0,225"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "100",
+               "text" : "目的地",
+               "bg" : "255,255,255",
+               "type" : "Label"
+            },
+			{
+               "id" : "city_to",
+               "list" : "威廉斯塔德,开曼,圣保罗,特略鲁西,卡宴,贝伦",
+               "select" : "2",
+               "size" : "200",
+               "type" : "RadioGroup",
+               "orientation" : "horizontal",
+               "color" : "0,0,225"
+            },
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "100",
+               "text" : "购买特产",
+               "bg" : "255,255,255",
+               "type" : "Label"
+            },
+			{
+               "id" : "special_goods",
+				"list" : "不买,买",
+               "select" : "1",
+               "size" : "200",
+               "type" : "RadioGroup",
+               "orientation" : "horizontal",
+               "color" : "0,0,225"
+            }
+         ]
+      },
+      {
+		 "id" : "pg",
+         "text" : "控制台",
+         "type" : "Page",
+         "views" : [
+            
+            {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "100",
+               "text" : "选择脚本名称",
+               "bg" : "255,255,255",
+               "type" : "Label"
+            },
+            {
+               "id" : "rg",
+               "list" : "钓鱼,金钻,吧女,流行货物,验证码,日志记录",
+               "select" : "2",
+               "size" : "200",
+               "type" : "RadioGroup",
+               "orientation" : "horizontal",
+               "color" : "0,0,225"
+            }
+         ]
+      }	  
+	  
+   ]
+}
+
+
